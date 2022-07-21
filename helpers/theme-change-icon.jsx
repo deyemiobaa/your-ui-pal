@@ -20,7 +20,7 @@ export default function ThemeChangeIcon() {
   }
   
   return (
-    <div className="theme-change" onClick={toggleTheme}>
+    <div className="cursor-pointer theme-change" onClick={toggleTheme}>
       {theme === 'light' ? <MdOutlineLightMode className='text-2xl' /> : <BsMoonStars className='text-2xl' />}
     </div>
   );
